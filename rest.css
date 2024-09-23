@@ -1,0 +1,58 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    color: aliceblue;
+    background: url(./pics/plates.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    width: 100%;
+}
+nav .lin{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+nav .list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 20px;
+    gap: 20px;
+}
+nav .list a{
+    font-weight:bold;
+    text-decoration: none;
+    color: rgb(205, 155, 90);
+
+}
+.main{
+    width: 40%;
+    position: relative;
+    left: 5%;
+    top: 150px;
+}
+.main h2{
+    font-size: 40px;
+
+}
+.main .btn{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 17px;
+    cursor: pointer;
+    background:rgb(205, 155, 90) ;
+    font-size: 15px;
+    transition: .5s;
+}
+.list a:hover{
+    color: rgb(84, 66, 42);
+}
+.main .btn:hover{
+    background: wheat;
+    letter-spacing: 1px;
+}
