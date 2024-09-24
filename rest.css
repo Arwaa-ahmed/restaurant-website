@@ -2,18 +2,25 @@ body{
     padding: 0px;
     margin: 0px;
     color: aliceblue;
-    background: url(./pics/plates.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 nav{
     display: flex;
     width: 100%;
 }
+header{
+    height: 100vh;
+    background: url(./pics/plates.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 nav .lin{
     text-decoration: none;
     font-size: 20px;
     color: aliceblue;
+    position: relative;
+    top: 0;
 }
 nav .list{
     list-style: none;
@@ -51,8 +58,85 @@ nav .list a{
 }
 .list a:hover{
     color: rgb(84, 66, 42);
+    border-bottom: 2px solid #a16606;
 }
 .main .btn:hover{
     background: wheat;
     letter-spacing: 1px;
+}
+main{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    background: rgb(240, 233, 231);
+}
+main .about{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+main .txt{
+    font-size: 35px;
+    color: rgb(135, 143, 106);
+}
+main .lorem{
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    position: relative;
+    left: 18%;
+
+}
+main .lorem p{
+    line-height: 160%;
+    color: #837e7e;
+}
+main .pic img{
+    border-radius: 100%;
+    padding:15px 15px ;
+}
+.menue{
+    color: white;
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:rgb(46, 50, 53);
+    padding: 10px;
+}
+.menue img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    transition: .5s;
+}
+.pics1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    gap: 100px;
+
+}
+
+.pics2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    gap: 100px;
+}
+.menue h3{
+    font-size: 22px;
+}
+.menue h2{
+    font-size: 30px;
+}
+.menue img:hover{
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
 }
