@@ -98,7 +98,7 @@ main .pic img{
 }
 .menue{
     color: white;
-    height: 110vh;
+    height: 120vh;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -139,4 +139,37 @@ main .pic img{
     width: 350px;
     height: 350px;
     cursor: pointer;
+}
+.test{
+    background: rgb(255, 248, 234);
+    padding: 10px;
+    color: #a16606;
+    height: 80vh; 
+}
+.test h1{
+    text-align: center;
+    font-size: 40px;
+}
+.test .container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+.test .container .one{
+    width: 30%;
+    background: white;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.one img{
+    width: 150px;
+    height: 150px;
+}
+.txts h4{
+    font-size: 20px;
+    color: #a16606;
 }
