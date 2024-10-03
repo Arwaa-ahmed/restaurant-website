@@ -140,24 +140,24 @@ main .pic img{
     height: 350px;
     cursor: pointer;
 }
-.test{
+#test{
     background: rgb(255, 248, 234);
     padding: 10px;
     color: #a16606;
     height: 80vh; 
 }
-.test h1{
+#test h1{
     text-align: center;
     font-size: 40px;
 }
-.test .container{
+#test .container{
     justify-content: center;
     align-items: center;
     text-align: center;
     display: flex;
     padding: 10px;
 }
-.test .container .one{
+#test .container .one{
     width: 30%;
     background: white;
     justify-content: space-between;
@@ -173,24 +173,104 @@ main .pic img{
     font-size: 20px;
     color: #a16606;
 }
-.galary{
+#galary{
     justify-content: center;
     align-items: center;
     color: black;
     text-align: center;
 }
-.galary img{
+#galary img{
     width: 300px;
     height: 300px;
     border-radius: 20px;
     transition: .5s;
 }
-.galary h2{
+#galary h2{
     font-size: 35px;
     text-decoration: dashed;
 }
-.galary img:hover{
+#galary img:hover{
     width: 350px;
     height: 350px;
     cursor: pointer;
+}
+#contact{
+    background-color: rgb(255, 247, 240);
+    color: black;
+}
+.contall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+}
+#contact h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+
+}
+.left h4{
+    font-size: 25px;
+}
+.right{
+    width: 50%;
+}
+.follow a{
+    font-size: 20px;
+   padding-bottom: 5px;
+   color: black;
+}
+.right input{
+    display: block;
+    margin-bottom: 10px;
+}
+.right input,
+textarea{
+    width: 50%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border: none;
+}
+.left{
+    width: 20%;
+}
+.left i{
+    color: black;
+}
+.left .add i{
+    color: #a16606;
+}
+.left p{
+    color: #837e7e;
+    font-weight: 300;
+}
+.left i:hover{
+    color: #a16606;
+}
+.right button{
+    display: block;
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    background: rgb(139, 92, 38);
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    transition: 1s;
+}
+.right button:hover{
+    background-color: black;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+#footer{
+    background:rgb(46, 50, 53) ;
+    padding: 10px 0;
+}
+#footer p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
 }

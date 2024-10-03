@@ -6,17 +6,18 @@
     <title>restaurant</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="./rest.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav>
             <a href="" class="lin"><h3>Restaurant <img src="./pics/logo.png" width="50px" height="50px" alt=""></h3></a>
                 <ul class="list">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">menu</a></li>
-                    <li><a href="">Testimanials</a></li>
-                    <li><a href="">gallary</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#ab">About</a></li>
+                    <li><a href="#men">menu</a></li>
+                    <li><a href="#test">Testimanials</a></li>
+                    <li><a href="#galary">gallary</a></li>
                     <li><a href="">Contact us</a></li>
                 </ul>
     </nav> 
@@ -30,7 +31,7 @@
         </div>
     </div>
     </header>
-    <main>
+    <main id="ab">
         <div class="pic"><img src="./pics/2691166.jpg" alt="" width="600px" height="600px"></div>
         <div class="about">
             <div class="txt"><h2>About Us</h2></div>
@@ -39,7 +40,7 @@
                  consequatur quae! Repudiandae et harum nihil suscipit voluptate dolore! Velit, iusto neque?</p></div>
         </div>
     </main>
-    <section>
+    <section id="men">
         <div class="menue">
             <h2>Our menue</h2>
             <div class="pics1">
@@ -80,7 +81,7 @@
         </div>
        
     </section>
-    <section class="test">
+    <section id="test">
         <h1>Testimonials</h1>
         <div class="container">
             <div class="one">
@@ -146,7 +147,7 @@
 
         </div>
     </section>
-    <section class="galary">
+    <section id="galary">
         <h2>Gallary</h2>
         <div class="pics1">
             <div>
@@ -171,6 +172,41 @@
             </div>
         </div>
     </section>
-    
+    <section id="contact">
+        <h3>contact us</h3>
+        <div class="contall">
+            <div class="left">
+                <div class="add">
+                    <h4>ADRESS</h4>
+                    <p><i class="fa-solid fa-location-crosshairs"></i>   minya El-qamh sharqia</p>
+                    <p><i class="fa-solid fa-phone"></i>   phone:124567</p>
+                    <p><i class="fa-solid fa-envelope"></i>   email:arwa@yahoo.com</p>
+                </div>
+                <div>
+                    <h4>Working hours</h4>
+                    <p> 8:00pm to 8:00am wednsday  </p>
+                   <p> 7:00am to 12:00am friday</p>
+                </div>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                       <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                   
+                </div>
+            </div>
+            <div class="right">
+                <form action="#">
+                    <input required type="text" placeholder="Your name">
+                    <input required type="text" placeholder="Your id" name="" id="">
+                    <textarea placeholder="Your message" id=""></textarea>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <p>copy right <i class="fa-regular fa-copyright"></i> 2024 all rights reserved to user <b>arwa ahmed</b></p>
+    </section>
 </body>
 </html>
